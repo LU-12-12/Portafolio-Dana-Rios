@@ -5,6 +5,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
+    text-align: center
 }
 
 header {
@@ -12,26 +13,31 @@ header {
     padding: 20px;
     text-align: center;
     border-bottom: 5px solid #ce93d8;
+    text-align: center
 }
 
 nav ul {
     list-style: none;
     padding: 0;
+    text-align: center;
 }
 
 nav ul li {
     display: inline;
     margin: 0 10px;
+    text-align: center
 }
 
 nav a {
     text-decoration: none;
     color: #6a1b9a;
     font-weight: bold;
+    text-align: center
 }
 
 nav a:hover {
     color: #ba68c8;
+    text-align: center
 }
 
 main {
@@ -43,6 +49,7 @@ main {
     margin-top: 20px;
     margin-bottom: 20px;
     box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    text-align: center
 }
 
 footer {
@@ -50,38 +57,44 @@ footer {
     padding: 10px;
     font-size: 0.9em;
     color: #7b1fa2;
+    text-align: center
 }
 
-/* 2. Selección por Clase (Para los artículos de proyectos) */
+
 .proyecto-card {
     border: 2px solid #ce93d8; /* CSS Borders */
     padding: 15px; /* CSS Padding */
     margin-bottom: 20px; /* CSS Margins */
     border-radius: 10px;
     background-color: #fdf7ff;
+    text-align: center;
 }
 
-/* 3. Selección por ID (Para elementos únicos como la foto) */
+
 #foto-perfil {
     display: block;
     margin: 0 auto;
     border: 5px solid #e1bee7;
-    border-radius: 50%; /* Foto circular */
+    border-radius: 50%; 
     transition: transform 0.3s;
+    text-align: center;
 }
 
 #foto-perfil:hover {
     transform: scale(1.05);
 }
 
-/* Unidades y Posicionamiento */
+
 h1 {
     font-size: 2.5rem; /* CSS Units */
+    text-align: center;
 }
 
 form {
     display: flex;
     flex-direction: column;
+    max-width: 400px;
+    margin: auto;
 }
 
 input, textarea {
@@ -89,6 +102,7 @@ input, textarea {
     border: 1px solid #ce93d8;
     border-radius: 5px;
     margin-top: 5px;
+    text-align: center;
 }
 
 button {
@@ -99,8 +113,10 @@ button {
     border-radius: 5px;
     cursor: pointer;
     margin-top: 10px;
+    text-align: center;
 }
 
 button:hover {
     background-color: #7b1fa2;
+    text-align: center;
 }
